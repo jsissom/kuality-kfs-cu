@@ -1,10 +1,8 @@
 class CUWebLoginPage < BasePage
-  page_url "#{$base_url}portal.do"
+  page_url "#{$base_url}"
 
-  element(:netid) { |b| b.text_field(name: 'netid') }
-  element(:password) { |b| b.text_field(name: 'password') }
-  element(:page_header_element) { |b| b.h1(text: 'CUWebLogin') }
-  value(:page_header) { |b| b.page_header_element.text }
-  button 'Login'
+  element(:username) { |b| b.text_field(id: "username") }
+  element(:password) { |b| b.text_field(id: "password") }
+  button 'Sign In'
 
 end

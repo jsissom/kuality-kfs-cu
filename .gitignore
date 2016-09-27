@@ -6,6 +6,7 @@ directory.yml
 *test.rb
 test.feature
 .ruby-version
+.ruby-gemset
 .DS_Store
 .idea/
 *.gem
@@ -16,3 +17,4 @@ Gemfile.lock
 **/client-sign.properties
 .project
 .buildpath
+rice.keystore
