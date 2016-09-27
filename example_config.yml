@@ -1,0 +1,7 @@
+!ruby/symbol basic:
+  !ruby/symbol browser: !ruby/symbol chrome
+  !ruby/symbol kfs_url: "url"
+  !ruby/symbol rice_url: "url"
+  !ruby/symbol cuweblogin_user: "username"
+  !ruby/symbol cuweblogin_password: "password"
+
